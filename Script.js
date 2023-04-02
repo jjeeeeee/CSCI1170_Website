@@ -75,7 +75,7 @@ function changeColour() {
     }
     else if (more.value == "Protanopia") 
     {
-        root.style.setProperty("--font-color", "#160CAO");
+        root.style.setProperty("--font-color", "#0D0227");
         root.style.setProperty("--nav-background", "#FFF2EB");
         root.style.setProperty("--element-background", "#7BE4FF");
         root.style.setProperty("--hover-color", "#4784FF");
