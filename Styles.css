@@ -419,15 +419,8 @@ h2, h3 {
     #background {
         padding: 4vw;
     }
-}
-
-
-@media only screen and (max-width: 500px) {
-    #missionStatement {
-        font-size: 3vh;
-    }
-
-
+    
+    
     #aboutMain {
         display: grid;
         grid-template-columns: 1fr;
@@ -435,6 +428,13 @@ h2, h3 {
             "bg"
             "skillsAttributes";
         padding: 0 5vw;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #missionStatement {
+        font-size: 3vh;
     }
 
 
