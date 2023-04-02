@@ -814,6 +814,8 @@ label {
 input, textarea {
     vertical-align: top;
     width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 /*For styling the button of the form on the contact page*/
