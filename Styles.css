@@ -775,7 +775,7 @@ audio ~ p {
 
 
     #book, #audio {
-        padding: 1vw;
+        padding: 2rem 1vw;
     }
 }
 
