@@ -153,7 +153,7 @@ h2, h3 {
 
 @media only screen and (max-height: 700px) {
     .nav-menu.on {
-        gap: 4vmax;
+        gap: 3vmax;
     }
 }
 
@@ -299,6 +299,7 @@ h2, h3 {
 
     #hero {
         margin-top: 5vh;
+        height: 20vh;
     }
 
 
@@ -309,6 +310,11 @@ h2, h3 {
 
     #description > h2 {
         font-size: 5vw;
+    }
+
+
+    #description > p {
+        font-size: 1rem;
     }
 
 
@@ -533,6 +539,11 @@ table, td {
     top: 50%;
 }
 
+
+#robotics p, .placeholder p {
+    font-size: 1rem;
+}
+
 /*For styling the achievements nested list on the experience page*/
 #achievements {
     background-color: var(--element-background);
@@ -567,13 +578,13 @@ ul > ol > li {
     }
 
 
-    .placeholder > p {
-        top: 0;
+    td {
+        padding: 0 8vw;
     }
 
 
-    td {
-        padding: 0 8vw;
+    .placeholder {
+        height: 40vh;
     }
 }
 
@@ -693,12 +704,19 @@ audio ~ p {
 }
 
 
+#book p, #audio p, #youtubeVideo p, #bridge p, #badminton p, #waterfall p, cite {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
 @media only screen and (max-width: 880px) {
     #audioAndBook {
         grid-template-columns: minmax(0, 1fr);
         grid-template-areas: 
             "book"
             "audio";
+        gap: 1rem;
     }
     #interestMain {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -720,11 +738,6 @@ audio ~ p {
     #bridge img, #badminton img, #waterfall img {
         width: 30vw;
         padding: 1vw;
-    }
-
-
-    cite {
-        font-size: 1.5vw;
     }
 
 
@@ -755,7 +768,7 @@ audio ~ p {
 
 
     #bridge img, #badminton img, #waterfall img {
-        width: 40vw;
+        width: 80%;
         padding: 1vw;
     }
 
