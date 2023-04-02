@@ -507,6 +507,7 @@ table, td {
     border-radius: var(--border-size);
     border: 0.1rem solid var(--border-color);
     width: 100%;
+    z-index: 2;
 }
 
 /*For styling the project placeholder on the expeience page*/
