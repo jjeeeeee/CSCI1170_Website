@@ -1,0 +1,143 @@
+<!DOCTYPE html> <!--Specifies document as HTML document-->
+<html lang = "en"> <!--Specifies language as English-->
+    <head>
+        <meta charset="UTF-8"> <!--Specifies character encoding for the HTML document-->
+        <link rel="icon" href="Images/Favicon.png"> <!--Setting favicon for browser tab-->
+        <title>Experience Page | Jason Jee</title> <!--Renames page in browser tab, also specifies which page this is in relation to the entire website-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For correctly scaling the page so it is sized correctly on all devices-->
+        <link rel="stylesheet" href="Styles.css">
+        <script src="Script.js" defer></script>
+    </head>
+
+    <nav class="navbar">
+        <div id="logo">
+            <a href="Index.html"><img src="Images/Home.png" alt="Picture of 2 cursive J letters"></a> <!--Adds link to Home page via a picture of my initials-->
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="About.html" class="nav-link">About</a> <!--Adds link the the About page-->
+            </li>
+            <li class="nav-items">
+                <a href="Experience.html">Experience</a> <!--Adds link to the Experience page-->
+            </li>
+            <li class="nav-items">
+                <a href="Interests.html">Interests</a> <!--Adds link to the Interests page-->
+            </li>
+            <li class="nav-items">
+                <a href="Contact.html">Contact</a><!--Adds link to the Contact page-->
+            </li>
+            <li class="nav-items">
+                <a href="https://www.linkedin.com/in/jason-jeeeeee">LinkedIn</a> <!--Links to external LinkedIn profile-->
+            </li>
+            <li class="nav-items">
+                <a href="mailto:js768355@dal.ca">Email</a> <!--Opens default mail app with my mail address-->
+            </li>
+            <li class="nav-items">
+                <a href="Other/Resume.pdf" target="_blank">Resume</a> <!--Opens resume PDF in new tab-->
+            </li>
+            <li class="colourChanger">
+                <select name="colourChangeSelector" id="colourChangeSelector">
+                    <option value="Default">Default</option>
+                    <option value="Protanopia">Protanopia</option>
+                    <option value="Deuteranopia">Deuteranopia</option>
+                </select>
+                <button id="submitButton" onclick="changeColour()">Submit</button>
+            </li>
+        </ul>
+        <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    
+    <!--Creating table in header section-->
+    <header id="experienceHeader">
+        <table>
+            <tr>
+                <th colspan="3">
+                    Languages
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Java
+                </td>
+                <td>
+                    Python
+                </td>
+                <td>
+                    C
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HTML
+                </td>
+                <td>
+                    CSS
+                </td>
+                <td>
+                    PHP
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main class="experienceMain">
+        <h2 id="projectHeader"> <!--H2 to label subsection-->
+            Projects
+        </h2>
+        <div id="robotics">
+            <video id="roboticsVideo" src="Other/ExperimentalRoboticsVideo.MOV" controls></video> <!--video with controls so that the user is able to control presentation of the video in the browser-->
+            <p> <!--Caption of video so that user knows relevance-->
+            This a a video showcasing a project that was completed in an experimental robotics course at Dalhousie University
+            The robot had to be programmed to complete a random arrangement of a course based off of a bit pattern that it would read
+            from it's surroundings, all within a one minute time limit
+            </p>
+        </div>
+        <div class="placeholder">
+            <p>This is a placeholder for future projects</p>
+        </div>
+        <h2 id="achievementHeader"> <!--H2 used to label another subsection-->
+            Achievements
+        </h2>
+        <!--Creating achievements section-->
+        <div id="achievements">
+            <ul> <!--Unordered list chosen for better presentation over ordered list-->
+                <li>
+                    <strong> <!--Strong tag used to emphasize -->
+                        Sports
+                    </strong>
+                </li>
+                <ol type="I"> <!--Ordered list of type "I" for best presentation of elements-->
+                    <li>
+                        Gold medal metro city & regional SSNS mens doubles senior badminton tournaments (2022)
+                    </li>
+                    <li>
+                        Silver U13AA Atlantic championship with HDSC (2017)
+                    </li>
+                </ol>
+                <li>
+                    <strong> <!--Strong tag used to emphasize -->
+                        School and Arts
+                    </strong>
+                </li>
+                <ol type="I"> <!--Ordered list of type "I" for best presentation of elements-->
+                    <li>
+                        Highest Achievement IB English SL (2022)
+                    </li>
+                    <li>
+                        Candian Intermediate Mathematics Contest Provincial Team Champion for University of Waterloo (2019)
+                    </li>
+                    <li>
+                        Top 10 placement at Dalhousie ASLA science competition (2019)
+                    </li>
+                    <li>
+                        1st place placement for Nova Scotia Kiwanis Music Festival for level 8 jazz performance (2018)
+                    </li>
+                </ol>
+            </ul>
+        </div>
+    </main>
+</html>
