@@ -184,7 +184,7 @@ h2, h3 {
 
 @media only screen and (max-height: 200) {
     .nav-menu.on {
-        margin-top: 8vh;
+        margin-top: 6vh;
     }
 }
 
