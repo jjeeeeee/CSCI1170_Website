@@ -122,7 +122,7 @@ h2, h3 {
     background-color: var(--border-color);
 }
 
-/*Media query activated when the window width is less that 880px*/
+/*Media query activated when the window width is less than 880px*/
 @media only screen and (max-width: 880px) {
     /*For styling the burger menu*/
     .burger {
@@ -179,7 +179,7 @@ h2, h3 {
     }
 }
 
-/*Media query activated when the window height is less that 350px*/
+/*Media query activated when the window height is less than 350px*/
 @media only screen and (max-height: 350px) {
     /*For spacing out the links and also the logo and drop down sections*/
     .nav-menu.on {
@@ -193,7 +193,7 @@ h2, h3 {
     }
 }
 
-/*Media query for when the window height is less that 200px*/
+/*Media query for when the window height is less than 200px*/
 @media only screen and (max-height: 300px) {
     /*For spacing out the logo and drop down sections*/
     .nav-menu.on {
@@ -345,7 +345,7 @@ h2, h3 {
     }
 }
 
-/*Media query that activates when the window width is less that 500px*/
+/*Media query that activates when the window width is less than 500px*/
 @media only screen and (max-width: 500px) {
     /*For styling the hero image section*/
     #hero {
