@@ -735,7 +735,7 @@ ul > ol > li {
     grid-area: video;
 }
 
-/*For styling the embeded video*/
+/*For styling the embedded video*/
 iframe {
     width: 70%;
     height: 25rem;
@@ -814,7 +814,7 @@ audio ~ p {
             "waterfall waterfall";
     }
 
-    /*For styling the embeded video*/
+    /*For styling the embedded video*/
     iframe {
         width: 60vw;
         height: 20rem;
@@ -849,7 +849,7 @@ audio ~ p {
         gap: 3vh;
     }
 
-    /*For styling the embeded video*/
+    /*For styling the embedded video*/
     iframe {
         width: 70vw;
         height: 25vh;
