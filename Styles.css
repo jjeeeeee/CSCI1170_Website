@@ -375,6 +375,12 @@ h2, h3 {
 
     #workPreview {
         font-size: 4vw;
+        margin-right: 0;
+    }
+
+
+    #introText {
+        margin-right: 0;
     }
 
     #previewImage {
