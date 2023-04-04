@@ -334,7 +334,7 @@ h2, h3 {
 @media only screen and (max-width: 880px) {
     /*For styling the paragraphs in the description section, and the short description section*/
     #description > p, #shortDescription, #introText > h1 {
-        font-size : 0.8rem;
+        font-size : 0.6rem;
     }
 
     /*For styling the link in the description section*/
@@ -373,7 +373,7 @@ h2, h3 {
 
     /*For styling the paragraphs in the description section, and the short description section*/
     #description > p, #shortDescription {
-        font-size :3vmax;
+        font-size: 1rem;
     }
 
     /*For styling the link in the description section*/
