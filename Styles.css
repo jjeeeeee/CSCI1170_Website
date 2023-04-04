@@ -248,10 +248,9 @@ h2, h3 {
     text-align: center;
     font-size: 2vw;
     padding: 5vh 5vw;
-    grid-area: introText;
     margin-right: 7vw;
+    grid-area: introText;
 }
-
 
 /*For styling the section that holds preview of work on main page*/
 #workPreview {
@@ -259,8 +258,8 @@ h2, h3 {
     border: 0.1rem solid var(--border-color);
     border-radius: var(--border-size);
     text-align: center;
-    grid-area: workPreview;
     margin-right: 7vw;
+    grid-area: workPreview;
 }
 
 /*For styling the description*/
@@ -600,7 +599,7 @@ table, td {
 /*For styling the project placeholder section*/
 .placeholder {
     background-color: var(--element-background);
-    columns: var(--font-color);
+    color: var(--font-color);
     border-radius: var(--border-size);
     border: 0.1rem solid var(--border-color);
     text-align: center;
