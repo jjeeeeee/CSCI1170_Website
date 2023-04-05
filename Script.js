@@ -110,7 +110,7 @@ function changeColour() {
         root.style.setProperty("--nav-background", "#FFF2EB");
         root.style.setProperty("--element-background", "#7BE4FF");
         root.style.setProperty("--hover-color", "#4784FF");
-        root.style.setProperty("--border-color", "#0A5978");
+        root.style.setProperty("--border-color", "#4AACF7");
         root.style.setProperty("--list-color", "#B1ECFF");
     } 
     //Checking if the selected value is Deuteranopia
