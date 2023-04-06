@@ -153,7 +153,7 @@ function validateForm() {
         //Checking if the feedback textarea field is empty
         if (feedback.value == "") {
             //Appending to the message string
-            blankFields += "==>Message"
+            blankFields += "==>Message";
         }
 
         //Alert is prompted indicating which fields are empty
